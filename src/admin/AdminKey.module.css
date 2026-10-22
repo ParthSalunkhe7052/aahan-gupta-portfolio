@@ -1,0 +1,65 @@
+/* The visible mark is 14px; the button around it is a comfortable touch target. */
+.key {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-width: 2.25rem;
+  height: 2.25rem;
+  padding: 0 0.5rem;
+  color: var(--turmeric);
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  z-index: var(--z-admin);
+}
+
+.key:hover,
+.key:focus-visible,
+.on {
+  opacity: 1;
+}
+
+.key:focus-visible {
+  outline: 2px solid var(--turmeric);
+  outline-offset: 0;
+  border-radius: 50%;
+}
+
+.label {
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+}
+
+.ring {
+  position: relative;
+  flex: none;
+  width: 14px;
+  height: 14px;
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+}
+
+.ring::after {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border-radius: 50%;
+  background: currentColor;
+  transform: scale(0.35);
+  transition: transform 0.3s var(--ease-out);
+}
+
+.key:hover .ring::after,
+.key:focus-visible .ring::after {
+  transform: scale(0.6);
+}
+
+.on .ring::after {
+  transform: scale(1);
+}
+
+@media (pointer: coarse) {
+  .key {
+    min-height: 2.75rem;
+  }
+}

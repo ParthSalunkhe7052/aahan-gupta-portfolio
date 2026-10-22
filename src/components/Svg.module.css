@@ -1,0 +1,13 @@
+/* :where keeps this at zero specificity so any consumer class can set the size. */
+:where(.svg) {
+  display: block;
+  width: 100%;
+  line-height: 0;
+}
+
+.svg > svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}

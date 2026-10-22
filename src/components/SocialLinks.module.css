@@ -1,0 +1,72 @@
+.list {
+  --icon-size: 2.6rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column {
+  display: grid;
+  gap: calc(var(--icon-size) * 0.9);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, var(--icon-size));
+  gap: calc(var(--icon-size) * 0.45) calc(var(--icon-size) * 0.5);
+}
+
+.icon {
+  position: relative;
+  display: block;
+  width: var(--icon-size);
+  color: var(--ash);
+  transition: color 0.3s ease;
+}
+
+.icon:hover,
+.icon:focus-visible {
+  color: #e6e0db;
+}
+
+/* Hover label naming the icon, shown above it. */
+.icon::after {
+  content: attr(data-label);
+  position: absolute;
+  left: 0;
+  bottom: calc(100% + 0.6rem);
+  z-index: 5;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid color-mix(in srgb, var(--turmeric) 55%, transparent);
+  border-radius: 2px;
+  background: rgba(10, 8, 7, 0.92);
+  color: var(--turmeric);
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(4px);
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s var(--ease-out);
+}
+
+.icon:hover::after,
+.icon:focus-visible::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (hover: none) {
+  .icon::after {
+    display: none;
+  }
+}

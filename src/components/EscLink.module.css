@@ -1,0 +1,24 @@
+.esc {
+  position: relative;
+  display: block;
+  width: clamp(1.15rem, 1.15vw, 1.45rem);
+  color: var(--turmeric);
+  transition: transform 0.45s var(--ease-out);
+}
+
+.esc::after {
+  /* The mark is ~18px; this grows the tappable area to a comfortable size without changing the layout. */
+  content: '';
+  position: absolute;
+  inset: -0.8rem;
+}
+
+.esc:hover {
+  transform: rotate(90deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .esc:hover {
+    transform: none;
+  }
+}

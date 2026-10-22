@@ -1,0 +1,16 @@
+<svg  data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 197.12 36.59">
+  <defs>
+    <style>
+      .arrow-1 { fill: currentColor; }
+    </style>
+  </defs>
+  <g  data-name="Layer 1">
+    <g>
+      <rect class="arrow-1" y="15.54" width="161.59" height="5.5"/>
+      <g>
+        <polygon class="arrow-1" points="134.13 36.59 155.81 18.29 134.13 0 197.12 18.29 134.13 36.59"/>
+        <polygon style="fill: var(--arrow-tip, #000)" points="143.05 31.27 190.19 18.29 159.13 18.29 143.05 31.27"/>
+      </g>
+    </g>
+  </g>
+</svg>

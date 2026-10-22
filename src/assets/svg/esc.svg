@@ -1,0 +1,16 @@
+<svg  data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77.84 77.84">
+  <defs>
+    <style>
+      .esc-1 {
+        fill: currentColor;
+      }
+    </style>
+  </defs>
+  <g  data-name="Layer 1">
+    <g>
+      <path class="esc-1" d="M38.92,77.84C17.46,77.84,0,60.38,0,38.92S17.46,0,38.92,0s38.92,17.46,38.92,38.92-17.46,38.92-38.92,38.92ZM38.92,4.04C19.69,4.04,4.04,19.68,4.04,38.92s15.65,34.89,34.88,34.89,34.88-15.65,34.88-34.89S58.16,4.04,38.92,4.04Z"/>
+      <rect class="esc-1" x="15.32" y="37.18" width="47.21" height="4.04" transform="translate(-16.32 39) rotate(-45)"/>
+      <rect class="esc-1" x="36.9" y="15.59" width="4.04" height="47.21" transform="translate(-16.32 39) rotate(-45)"/>
+    </g>
+  </g>
+</svg>

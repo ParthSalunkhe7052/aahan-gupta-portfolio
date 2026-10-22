@@ -1,0 +1,17 @@
+<svg  data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 87.05 94.29">
+  <defs>
+    <style>
+      .zoom-1 {
+        fill: currentColor;
+      }
+    </style>
+  </defs>
+  <g  data-name="Layer 1">
+    <g>
+      <path class="zoom-1" d="M38.92,77.84C17.46,77.84,0,60.38,0,38.92S17.46,0,38.92,0s38.92,17.46,38.92,38.92-17.46,38.92-38.92,38.92ZM38.92,4.04C19.69,4.04,4.04,19.68,4.04,38.92s15.65,34.88,34.88,34.88,34.88-15.65,34.88-34.88S58.16,4.04,38.92,4.04Z"/>
+      <rect class="zoom-1" x="69.47" y="62.99" width="8.08" height="32.51" transform="translate(-33.74 65.78) rotate(-40)"/>
+      <rect class="zoom-1" x="36.9" y="21.73" width="4.04" height="34.92"/>
+      <rect class="zoom-1" x="21.46" y="37.17" width="34.92" height="4.04"/>
+    </g>
+  </g>
+</svg>

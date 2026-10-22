@@ -1,0 +1,182 @@
+/*
+ * Mockup (Artboard 3 copy 7): ESC at 13.2vw, the painting centred in a stage that runs
+ * from the left margin to 70vw, a right rail from 74vw with the text at the top and the
+ * zoom mark and Next / Gallery at the bottom, level with the painting's foot.
+ */
+.page {
+  --art-x: 13.2vw;
+  --stage-h: min(78svh, 47.5vw);
+  position: relative;
+  display: grid;
+  grid-template-columns: calc(70vw - var(--pad-l)) 4.1vw minmax(0, 1fr);
+  padding: clamp(1.75rem, 4.4vw, 5.5rem) var(--pad-r) clamp(3rem, 5vw, 6rem) var(--pad-l);
+  min-height: 60svh;
+}
+
+.esc {
+  position: absolute;
+  top: clamp(2.25rem, 4.7vw, 5.75rem);
+  left: var(--art-x);
+  width: clamp(1.15rem, 1.15vw, 1.45rem);
+}
+
+.stage {
+  grid-column: 1;
+  height: var(--stage-h);
+  display: grid;
+  justify-items: center;
+  align-items: start;
+}
+
+.frame {
+  position: relative;
+  width: min(100%, calc(var(--stage-h) * var(--ar)));
+  aspect-ratio: var(--ar);
+}
+
+.rail {
+  grid-column: 3;
+  height: var(--stage-h);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.desc {
+  display: grid;
+  gap: 1.2em;
+  max-width: 22rem;
+  color: var(--fg);
+  font-size: var(--step--1);
+  line-height: 1.62;
+}
+
+.titleBlock {
+  margin-top: 1.4rem;
+  padding-left: 4.8vw;
+}
+
+.title {
+  color: var(--turmeric);
+  font-weight: 700;
+  font-size: var(--step-1);
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+.medium {
+  color: var(--turmeric);
+  font-style: italic;
+  font-weight: 300;
+  font-size: var(--step-1);
+  line-height: 1.3;
+}
+
+.facts {
+  margin-top: 0.5rem;
+  color: var(--fg);
+  font-size: var(--step--1);
+}
+
+.adminLine {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-top: 0.9rem;
+  color: var(--fg);
+  font-size: var(--step--1);
+}
+
+.adminLine button {
+  color: var(--turmeric);
+  border-bottom: 1px solid currentColor;
+}
+
+/* Two zoom buttons exist so each layout can place one; only one is ever shown. */
+.zoom {
+  display: none;
+}
+
+.zoomRail {
+  margin-top: auto;
+  margin-left: -2vw;
+  width: clamp(1.4rem, 1.5vw, 1.9rem);
+  color: var(--turmeric);
+  padding: 0;
+  transition: transform 0.4s var(--ease-out);
+}
+
+.zoomRail:hover,
+.zoomRail:focus-visible {
+  transform: scale(1.12);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2.4vw;
+  margin-top: 1.6rem;
+  margin-left: -2vw;
+}
+
+/* ---------- phones: image, title and links, then the text ---------- */
+
+@media (max-width: 759.98px) {
+  .page {
+    --art-x: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .esc {
+    top: 1.25rem;
+    left: 20px;
+  }
+
+  .zoom {
+    display: block;
+    position: absolute;
+    top: 1.1rem;
+    right: 20px;
+    width: 1.5rem;
+    color: var(--turmeric);
+  }
+
+  .zoomRail {
+    display: none;
+  }
+
+  .stage {
+    height: auto;
+    order: 0;
+  }
+
+  .frame {
+    width: 100%;
+  }
+
+  .rail {
+    display: contents;
+  }
+
+  .titleBlock {
+    order: 1;
+    margin-top: 1.5rem;
+    padding-left: 0;
+  }
+
+  .nav {
+    order: 2;
+    margin: 0.75rem 0 0;
+    gap: 2rem;
+  }
+
+  .desc {
+    order: 3;
+    margin-top: 1.5rem;
+    max-width: none;
+    font-size: var(--step-0);
+  }
+}

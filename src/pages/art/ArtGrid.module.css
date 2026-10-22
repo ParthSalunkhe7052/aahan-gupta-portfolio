@@ -1,0 +1,36 @@
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 12.5rem), 1fr));
+  gap: clamp(1.25rem, 2.5vw, 2.5rem) clamp(1rem, 2vw, 2rem);
+}
+
+.card {
+  display: block;
+}
+
+.picture {
+  background-color: var(--char);
+  transition: transform 0.6s var(--ease-out);
+}
+
+.card:hover .picture,
+.card:focus-visible .picture {
+  transform: translateY(-3px);
+}
+
+.caption {
+  display: block;
+  margin-top: 0.7rem;
+  color: var(--fg);
+  font-size: var(--step--1);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.card:hover .caption,
+.card:focus-visible .caption {
+  color: var(--turmeric);
+}

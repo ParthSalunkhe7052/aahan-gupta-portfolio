@@ -1,0 +1,22 @@
+node_modules/
+dist/
+storage/
+.env
+*.log
+
+# Raw handover files from the designer (huge PNGs, kept locally only)
+source-assets/
+*.zip
+
+# Screenshots and logs from local browser verification
+.verify/
+
+# Design handover exports and loose source images in the project root (large, kept locally only)
+*.jam
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+
+# Local tool settings
+.claude/

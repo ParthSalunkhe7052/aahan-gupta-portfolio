@@ -1,0 +1,317 @@
+.main {
+  padding: clamp(3.5rem, 7vw, 8.5rem) var(--pad-r) clamp(4rem, 8vw, 9rem) var(--pad-l);
+  min-height: 60svh;
+}
+
+/* ---------- shared text ---------- */
+
+.title,
+.cardTitle {
+  display: block;
+  color: var(--title);
+  font-style: italic;
+  font-weight: 300;
+  font-size: var(--step-2);
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+.draftTag {
+  display: inline-block;
+  margin-left: 0.7em;
+  font-size: var(--step--1);
+  font-style: normal;
+  color: var(--fg);
+  opacity: 0.7;
+  vertical-align: middle;
+}
+
+.summary {
+  display: block;
+  color: var(--fg);
+  font-size: var(--step--1);
+  line-height: 1.6;
+  max-width: 28ch;
+}
+
+.meta {
+  display: block;
+  color: var(--fg);
+  font-size: var(--step--1);
+  line-height: 1.6;
+}
+
+.tagline {
+  display: block;
+  margin-bottom: 0.9em;
+  font-weight: 700;
+  color: var(--fg-strong);
+}
+
+.credit {
+  display: block;
+}
+
+.credit em {
+  display: block;
+  color: var(--title);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.view {
+  display: inline-flex;
+  align-items: center;
+  gap: clamp(1.6rem, 5.5vw, 7rem);
+  color: var(--link);
+  font-size: var(--step--1);
+  line-height: 1.6;
+  align-self: start;
+  justify-self: start;
+}
+
+.viewText {
+  white-space: nowrap;
+  font-style: italic;
+  font-weight: 400;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+}
+
+.arrow {
+  width: clamp(1.8rem, 2vw, 2.4rem);
+  color: var(--turmeric);
+  flex: none;
+  transition: transform 0.5s var(--ease-out);
+}
+
+.row:hover .arrow,
+.row:focus-visible .arrow,
+.card:hover .arrow,
+.card:focus-visible .arrow {
+  transform: translateX(6px);
+}
+
+/* ---------- rows (branding, packaging) ---------- */
+
+.rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  --band: 4.2 / 1;
+}
+
+.item + .item {
+  margin-top: clamp(1.5rem, 2vw, 2.75rem);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, var(--gcol)) minmax(0, 1fr);
+  align-items: center;
+}
+
+.text {
+  grid-column: 1 / 4;
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-areas:
+    'title . .'
+    'summary meta view';
+  row-gap: 0.7rem;
+  align-items: start;
+  padding-right: 1.5rem;
+}
+
+.text > .title {
+  grid-area: title;
+}
+
+.text > .summary {
+  grid-area: summary;
+}
+
+.text > .meta {
+  grid-area: meta;
+}
+
+/* The columns are a gap-less subgrid; keep text off its neighbour. */
+.text > .summary,
+.text > .meta {
+  padding-right: clamp(0.75rem, 1.6vw, 2rem);
+}
+
+.text > .view {
+  grid-area: view;
+}
+
+.cover {
+  grid-column: 4;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  aspect-ratio: var(--band);
+  background: rgb(0 0 0 / 0.04);
+}
+
+/* Slightly wider than its frame so it can slide 6% to the left on hover. */
+.slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 106%;
+  transition:
+    transform 0.9s var(--ease-out),
+    filter 0.9s var(--ease-out);
+}
+
+.row:hover .slide,
+.row:focus-visible .slide {
+  transform: translateX(-5.66%);
+  filter: brightness(1.05);
+}
+
+/* ---------- cards (illustrations) ---------- */
+
+.cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 25.7vw));
+  column-gap: 2.5vw;
+  row-gap: clamp(3rem, 5vw, 6rem);
+}
+
+.card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: 1.1rem;
+}
+
+.thumb {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  background: rgb(0 0 0 / 0.04);
+}
+
+.thumbInner {
+  position: absolute;
+  inset: 0;
+  transition: transform 1s var(--ease-out);
+}
+
+.card:hover .thumbInner,
+.card:focus-visible .thumbInner {
+  transform: scale(1.03);
+}
+
+.cardMeta {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  column-gap: 1.25rem;
+  align-items: start;
+}
+
+.cardMeta .summary {
+  max-width: none;
+}
+
+/* ---------- empty + admin ---------- */
+
+.empty {
+  max-width: 34rem;
+  padding-top: 2rem;
+}
+
+.empty p {
+  color: var(--title);
+  font-style: italic;
+  font-size: var(--step-1);
+}
+
+.emptyLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.add {
+  margin-top: 2.5rem;
+  padding: 0.55rem 0;
+  color: var(--link);
+  border-bottom: 1px solid currentColor;
+  font-size: var(--step--1);
+  font-weight: 400;
+}
+
+.empty .add {
+  display: block;
+}
+
+/* ---------- narrower screens ---------- */
+
+@media (max-width: 1100px) and (min-width: 760px) {
+  .cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2rem;
+  }
+
+  .summary {
+    max-width: none;
+  }
+}
+
+@media (max-width: 759.98px) {
+  .main {
+    padding-top: 3rem;
+  }
+
+  .rows {
+    --band: 1920 / 850;
+  }
+
+  .item + .item {
+    margin-top: 3rem;
+  }
+
+  .row {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 1.1rem;
+  }
+
+  .text {
+    grid-column: 1;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+    grid-template-areas:
+      'title title'
+      'summary meta'
+      'view view';
+    column-gap: 1.25rem;
+    row-gap: 0.75rem;
+    padding-right: 0;
+  }
+
+  .cover {
+    grid-column: 1;
+  }
+
+  .summary {
+    max-width: none;
+  }
+
+  .view {
+    gap: 1.5rem;
+    margin-top: 0.25rem;
+  }
+
+  .cards {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 3.5rem;
+  }
+}

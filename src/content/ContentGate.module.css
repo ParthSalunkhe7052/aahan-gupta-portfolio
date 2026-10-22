@@ -1,0 +1,27 @@
+.failed {
+  min-height: 100svh;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 1.1rem;
+  padding: 2rem 1.25rem;
+  text-align: center;
+  color: var(--ash);
+}
+
+.failed p {
+  font-style: italic;
+  font-size: var(--step-1);
+}
+
+.failed button {
+  color: var(--turmeric);
+  font-weight: 400;
+  border-bottom: 1px solid currentColor;
+  padding: 0.25rem 0.1rem;
+}
+
+.failed button:focus-visible {
+  outline: 2px solid var(--turmeric);
+  outline-offset: 4px;
+}

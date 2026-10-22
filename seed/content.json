@@ -1,0 +1,1975 @@
+{
+  "rev": 1,
+  "updatedAt": "2026-10-22T06:02:02.617Z",
+  "site": {
+    "name": "Aahan Gupta",
+    "role": "Brand designer and painter",
+    "location": "Delhi, India",
+    "statement": "I don't think of art and design as separate practices. One teaches me to ask questions without expecting answers; the other asks me to answer them with intention. Somewhere, between the two is where I feel most at home.",
+    "practice": "I see design as an act of translation, transforming thoughts, cultures, and intentions into forms that people can understand and connect with. My practice continues to evolve through that dialogue between expression and structure.",
+    "collection": "This is a collection of work exploring the space between artistic expression and purposeful design.",
+    "contact": {
+      "instagram": "https://www.instagram.com/aahan.gupta",
+      "behance": "https://www.behance.net/aahangupta1",
+      "linkedin": "https://www.linkedin.com/in/aahan-gupta-1b5495119/",
+      "email": "guptaaahan022@gmail.com",
+      "phone": "+91 96253 94349"
+    },
+    "cv": {
+      "intro": "Working in branding and visual communication since 2021, with experience across identity systems, editorial design, and campaign development.",
+      "education": [
+        {
+          "title": "Bachelor of Design",
+          "org": "Delhi Technological University",
+          "period": "2022–2026",
+          "body": ""
+        }
+      ],
+      "experience": [
+        {
+          "title": "Creative Lead",
+          "org": "VOLUME",
+          "period": "March 2026 – present",
+          "body": "Worked alongside the Creative Director to develop brand identity systems across hospitality, healthcare, retail, and technology, and more, contributing from concept development through final execution."
+        },
+        {
+          "title": "Sr. Creative Associate",
+          "org": "VOLUME",
+          "period": "January 2025 – March 2026",
+          "body": "Designed brand identities and communication systems across print and digital mediums while collaborating with strategy, account management, and production teams to deliver cohesive visual experiences for a diverse range of clients."
+        },
+        {
+          "title": "Branding Associate",
+          "org": "Access Health International (AHI)",
+          "period": "March 2022 – January 2025",
+          "body": "Developed visual identities and communication systems for healthcare initiatives, conferences, and publications, translating complex information into clear, accessible, and consistent visual communication."
+        },
+        {
+          "title": "Jr. Graphic Designer (began as Art Intern)",
+          "org": "VOLUME",
+          "period": "February 2021 – February 2022",
+          "body": "Contributed to branding and communication projects through identity development, editorial design, presentation design, and production, supporting projects from early exploration through final execution while developing a strong foundation in agency practice."
+        }
+      ],
+      "capabilities": [
+        "Brand identity",
+        "Visual systems",
+        "Art direction",
+        "Typography",
+        "Editorial design",
+        "Presentation design",
+        "Packaging",
+        "Creative collaboration",
+        "Adobe Illustrator",
+        "Adobe Photoshop",
+        "Figma"
+      ],
+      "pdf": ""
+    },
+    "fireAudio": ""
+  },
+  "projects": [
+    {
+      "id": "prj-cubic",
+      "slug": "cubic",
+      "title": "Cubic",
+      "category": "branding",
+      "tagline": "",
+      "summary": "Brand identity and visual system for a real estate business.",
+      "studio": "VOLUME",
+      "cover": {
+        "media": {
+          "id": "cubic",
+          "width": 3000,
+          "height": 3000,
+          "color": "#080808",
+          "lqip": "data:image/webp;base64,UklGRn4BAABXRUJQVlA4WAoAAAAQAAAAFwAAFwAAQUxQSMwAAAANgFvbtmpl7fvexy0ncyuBEoiIaI6YIgjJ3V0yCnC5Z3+9jxIiYgIoVWXblMoTmx/Hrz8ZUBUxKMXW9tDSz93V5dnLxx+FcsX3zNz66uriyOPzzkmKfmCl399MNT67uni6XyKQEvH3m8eCUtFfghQl5XIDeUDTKqqc5EZWzkmylGsXJYZrEkBNlQcF53vfYYxJIxtEwcEug99SAai2AAH8msJsmV7ZlFsAltWkvyyayAIsABeBBBgISo2ijy0amhAk/lEAgRoIjEGA3ANWUDggjAAAAJADAJ0BKhgAGAA+7WapTamlpCIwCAEwHYliAABd8JeGWllXxgAA/u6SWLr3IqDRW/uHDATYBTMiX3A+fcjfD6DlM1k6HUlmRhf57p2b57qSlOx/ZpEyStSXdU3/BPBLtGBtXZVvpvNvVGYcgBGpiJJbw3YHxuXIe9gped/8Z0u0yrtB6+fPbFhrEAAA",
+          "avif": [
+            {
+              "w": 480,
+              "url": "/media/design/cubic/480.avif"
+            },
+            {
+              "w": 960,
+              "url": "/media/design/cubic/960.avif"
+            },
+            {
+              "w": 1440,
+              "url": "/media/design/cubic/1440.avif"
+            },
+            {
+              "w": 1920,
+              "url": "/media/design/cubic/1920.avif"
+            },
+            {
+              "w": 2560,
+              "url": "/media/design/cubic/2560.avif"
+            }
+          ],
+          "webp": [
+            {
+              "w": 480,
+              "url": "/media/design/cubic/480.webp"
+            },
+            {
+              "w": 960,
+              "url": "/media/design/cubic/960.webp"
+            },
+            {
+              "w": 1440,
+              "url": "/media/design/cubic/1440.webp"
+            },
+            {
+              "w": 1920,
+              "url": "/media/design/cubic/1920.webp"
+            },
+            {
+              "w": 2560,
+              "url": "/media/design/cubic/2560.webp"
+            }
+          ]
+        },
+        "focal": {
+          "x": 0.5,
+          "y": 0.43
+        },
+        "alt": "The Cubic wordmark in cream letters on a deep blue slab"
+      },
+      "blocks": [
+        {
+          "id": "blk-cubic-1",
+          "type": "long",
+          "slots": [
+            {
+              "media": {
+                "id": "cubic-full",
+                "width": 620,
+                "height": 3858,
+                "color": "#f8f8f8",
+                "lqip": "data:image/webp;base64,UklGRnYEAABXRUJQVlA4IGoEAABQFQCdASoYAJUAPu1urFAppqQiqzkqcTAdiUAW/YSpRa0Ofo0wCQMfvnhP48PWslhnTyTOxO4vy3xL6W5ocadLf78tPDm1amiMSLSbhsC/Hhn65aQe7p6k/yuAcntAVTST5B7/0ld5WVqQddj6RPkU9xUouh9C0SvQ12pN6pjaOYxLRIq8ch7EEZd/rzTklWn6enFIyHMn9CqWLcjp7qf8T1GNukakMHXTbqj+7sP+3z2TwAD8WJhDjJh+06FjkHy8TjE8W/wj6GwLyyubPW+PIQ1hpV3V8JTtgQSqnkVYI4Y0AmKXgptjvdZrVmUABplRvJO8E5dfieGLwUQgBa2Bve/I/IykxTM6LQjKA2HWqmPr938pVwMWWA+rK/7HPPSNm11KeLWTJAY1xU3l5SiifbUgaXAnpL1rmyGkAMv3CGj6oo+V4kdrNR8YAF0zivXJv5VavLdP29yfprt2txHM+iikj/0CwUFXCtxnEHelUQi4/XMpmVJygB+QeM5uQi8qg9lanMaif/a4gW4in4Me8LPPl1O+T5d45qkE1D43Ga+AYjrCMhbj5osm4AwNFH4C/mEhRz4hjmvnmVD+c5pcnc7nJTJsUBJNW7Fn4TI6Jkv5krTt4cCZpaLT353rVdshcbSxZvZrQ9+fQJ0QpMYRoxXkVB2cRAH2g1/WjlBIbiVxOdz/NjN4oEaqsJCkoF76cMwGunuax05q9SmHX/zj+BlpjED4PkKm95cKOgrmmVi053/5ykWoieJHM59f002gd7VjY24Nm8zya6Rk/555SuS5pTxUsfACzlayyHe5EhZvKd/vxILp7Kznp1BVMiHY1RsDukz5MLlBXEAcj6TnUduA9+EJSmKLmohe4tj6MCGETbuJ3gT3va/lJr/5Qfo3n9Jrv0WIz7+yMlYTwPW1SxTEKSELzBr8lRyD/WhfhlkZvwOo+bgoXauEFDtTBs2AO3FUmRSCUX0H+QySt4bqeHHbrKkbqNnk/7XLl652gXppdZZTCaT9pSaP49kygc+bZez5vE/hkhQ7wg5fca7M1ISZ0XGlJXmWTGilvz+ANCtVcYFepkEaUJ/t/WTg0qiXzUacPfstPt87RFr6exVc1J25iztcTyPd7kj1PzSMjOlQwSgzLcWP4vsBZUHRhC9hylGXAr+U1Lj8egrgikBvp3qJXdKP8BSWetkc5lFxv5q6ThD1T6gI9xoz6OhmMMBb/LzrrLzOI0spnDXd/Q4BxJW05T1b7QM27r3aiEynvmLappcbvk12d4zOBKqMqH3/yZS5oNPPNDemADba1ewMVGTvPEyeS/N+J85MfKIovThWgLC1gEgSBVKCZZEKDoOprUp8qB4lVnYoK3Bs9bxcIQ7GugbQqGprYk7q9x6JUZG4vOvqvLFFBtD9PXFYHmTIN0nnpcgoa8/8jfCWx2nt9vubn07n54Eo1mpYKNldcDrkuvOVi/87xsr04yzm+cUtvxPDgAgaycGqpvgZ3lQh+DLgNzlSSIAAAA==",
+                "avif": [
+                  {
+                    "w": 480,
+                    "url": "/media/design/cubic-full/480.avif"
+                  },
+                  {
+                    "w": 620,
+                    "url": "/media/design/cubic-full/620.avif"
+                  }
+                ],
+                "webp": [
+                  {
+                    "w": 480,
+                    "url": "/media/design/cubic-full/480.webp"
+                  },
+                  {
+                    "w": 620,
+                    "url": "/media/design/cubic-full/620.webp"
+                  }
+                ]
+              },
+              "focal": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "alt": "Cubic: the full case study"
+            }
+          ]
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "prj-speaking-of-summer",
+      "slug": "speaking-of-summer",
+      "title": "Coffee Bean & Tea Leaf",
+      "category": "branding",
+      "tagline": "Speaking of Summer",
+      "summary": "Brand communication and campaign design across digital and retail touchpoints.",
+      "studio": "VOLUME",
+      "cover": {
+        "media": {
+          "id": "speaking-of-summer",
+          "width": 5760,
+          "height": 3240,
+          "color": "#f8f8f8",
+          "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADQAwCdASoYAA4APu1kqk4ppaQiMAgBMB2JQBadBDwpbyV/ExItdGAA/t7aaO5rdZ5jVr1GGu8elRl7eNqyn8nXnYNXr/0wTUwekmflaaZuKEb1Hh7tjLxqgwnI4ldumPi5eGAA",
+          "avif": [
+            {
+              "w": 480,
+              "url": "/media/design/speaking-of-summer/480.avif"
+            },
+            {
+              "w": 960,
+              "url": "/media/design/speaking-of-summer/960.avif"
+            },
+            {
+              "w": 1440,
+              "url": "/media/design/speaking-of-summer/1440.avif"
+            },
+            {
+              "w": 1920,
+              "url": "/media/design/speaking-of-summer/1920.avif"
+            },
+            {
+              "w": 2560,
+              "url": "/media/design/speaking-of-summer/2560.avif"
+            }
+          ],
+          "webp": [
+            {
+              "w": 480,
+              "url": "/media/design/speaking-of-summer/480.webp"
+            },
+            {
+              "w": 960,
+              "url": "/media/design/speaking-of-summer/960.webp"
+            },
+            {
+              "w": 1440,
+              "url": "/media/design/speaking-of-summer/1440.webp"
+            },
+            {
+              "w": 1920,
+              "url": "/media/design/speaking-of-summer/1920.webp"
+            },
+            {
+              "w": 2560,
+              "url": "/media/design/speaking-of-summer/2560.webp"
+            }
+          ]
+        },
+        "focal": {
+          "x": 0.5,
+          "y": 0.55
+        },
+        "alt": "Speaking of Summer campaign artwork in pastel lilac and yellow"
+      },
+      "blocks": [
+        {
+          "id": "blk-speaking-of-summer-1",
+          "type": "long",
+          "slots": [
+            {
+              "media": {
+                "id": "speaking-of-summer-full",
+                "width": 1039,
+                "height": 3726,
+                "color": "#f8f8f8",
+                "lqip": "data:image/webp;base64,UklGRtYCAABXRUJQVlA4IMoCAADwDQCdASoYAFYAPu1qqE6ppiOiLVzKSTAdiWwAp02N096I5nZUa5vbu3clH52LJsZUaPAXO6r3veZm1cWEM1KeFQ2E6o2+N/XnRVhHQr61PZFPhlsX/S/2kKambWdnkKg9fO5+s20A79X3qv7z+nPYlaXZpn9qB8AA/uIu8mVCL3+RS1EJKaqU0u2gFi7kV/oSZdfKlcJJyNqGZSW8Pg3x75ADZXLK+PauYJ0kw8UliSp5OJcr4vk/2bqfE6Gsyh0/wLoX5EBjlnH/lSh+n63BNaRu76H10xyydG3eyOKnAznfxtOuJlLZdTgdkJ1axesaMdV0aJVjhh7pPMvu58loAzAR2lcYNUpCoM69vjgVKG4GbCHzeN/RLd5HBYP2oUm+alJGzrykRYjcDcU86EbNZPAmWn4ita/NY0P1WN9d/3NlvVsdYCFteI/VxaaOh0f5iCLnsij0ST0sHsp/QilAklhtQH078feX1Fx52BeQNIBAJvGh9KDAY3vkmoja0g1nPlS683fXt3zXfrYDdLWb0MOCtrtRhDT/EvZ4QRhHqC2HFICNdTSyWM6KO6bhie40I1g1GoV/D+wywUWaKm9iw78PXLkKv8y0XVmgvjLlDua36j8/J+3xFCv/hWY5cC9ueAFlMq4qfrVad7Hq4VMzfey7aDfuF4Gap1uDKMskWokBB7iMnfQufqm3aR3pgeM9YVNmuBIYlkTryp1jJPX7/POCatB5vm3PR5B6YRksoDwQ548A4V+7xd+FFRmZwGIBWsdt2EtpALgOI+o9fQlNHGhBSb6GefZLy2gTT02NDULPAVzTCakM3LDPIUg/bxeo6F2dvVkN7PEmH3+7pk3QnJDQP5zlZ7MaHmSV2GCSSaFxxWwF1rAuPu6SSim8hv4BC1sx4WRILXrdRDVi/svPPwaxfGX1mgKPsxYH2TeFN9X5ewfhfQQAAAA=",
+                "avif": [
+                  {
+                    "w": 480,
+                    "url": "/media/design/speaking-of-summer-full/480.avif"
+                  },
+                  {
+                    "w": 960,
+                    "url": "/media/design/speaking-of-summer-full/960.avif"
+                  },
+                  {
+                    "w": 1039,
+                    "url": "/media/design/speaking-of-summer-full/1039.avif"
+                  }
+                ],
+                "webp": [
+                  {
+                    "w": 480,
+                    "url": "/media/design/speaking-of-summer-full/480.webp"
+                  },
+                  {
+                    "w": 960,
+                    "url": "/media/design/speaking-of-summer-full/960.webp"
+                  },
+                  {
+                    "w": 1039,
+                    "url": "/media/design/speaking-of-summer-full/1039.webp"
+                  }
+                ]
+              },
+              "focal": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "alt": "Coffee Bean & Tea Leaf, Speaking of Summer: the full case study"
+            }
+          ]
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "prj-bharatiyam",
+      "slug": "bharatiyam",
+      "title": "Bharatiyam",
+      "category": "branding",
+      "tagline": "",
+      "summary": "Art direction, identity, and visual communication system, for a bottle manufacturing business.",
+      "studio": "VOLUME",
+      "cover": {
+        "media": {
+          "id": "bharatiyam",
+          "width": 3840,
+          "height": 2160,
+          "color": "#282828",
+          "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBACdASoYAA4APu1iqU2ppaOiMAgBMB2JYwC7ACPaYXx7wwDgYzphCTAA/OP3ne0PpRXvQmlGu0NYKboVeGhQqBL3ANQ1vQgr2v4lktuOQYLj/NpqCPwsyfJxclrtOEZtCoF9SlBjyRwXSg/zFmaN6fwl013nTYrWsAAA",
+          "avif": [
+            {
+              "w": 480,
+              "url": "/media/design/bharatiyam/480.avif"
+            },
+            {
+              "w": 960,
+              "url": "/media/design/bharatiyam/960.avif"
+            },
+            {
+              "w": 1440,
+              "url": "/media/design/bharatiyam/1440.avif"
+            },
+            {
+              "w": 1920,
+              "url": "/media/design/bharatiyam/1920.avif"
+            },
+            {
+              "w": 2560,
+              "url": "/media/design/bharatiyam/2560.avif"
+            }
+          ],
+          "webp": [
+            {
+              "w": 480,
+              "url": "/media/design/bharatiyam/480.webp"
+            },
+            {
+              "w": 960,
+              "url": "/media/design/bharatiyam/960.webp"
+            },
+            {
+              "w": 1440,
+              "url": "/media/design/bharatiyam/1440.webp"
+            },
+            {
+              "w": 1920,
+              "url": "/media/design/bharatiyam/1920.webp"
+            },
+            {
+              "w": 2560,
+              "url": "/media/design/bharatiyam/2560.webp"
+            }
+          ]
+        },
+        "focal": {
+          "x": 0.5,
+          "y": 0.45
+        },
+        "alt": "The Bharatiyam enamel pin on a dark suit lapel"
+      },
+      "blocks": [
+        {
+          "id": "blk-bharatiyam-1",
+          "type": "long",
+          "slots": [
+            {
+              "media": {
+                "id": "bharatiyam-full",
+                "width": 945,
+                "height": 3760,
+                "color": "#e8e8e8",
+                "lqip": "data:image/webp;base64,UklGRtgCAABXRUJQVlA4IMwCAAAQDwCdASoYAF8APu1qqE6ppiOiLVzKSTAdiWwAqScbMb2zButu/z5TNi8goUa6vfHMzYU6adpIlKqqD/Jnzh1HND3SDHc9TcZa2lly165Q7CRdT/nm4hRnivIfE5uE4B6BzwFIOOS1FljvSRuH4mm1wDXRBYdYcDmW2FjnIfCUpYAA/sXqtVSGGKRJljx+wwWS56G9UJbPeRnzxULzrn9g4KmMSNpNc70Qb2o6LTC87832MDDNmi291NKI+vrvYnGqj0NgpHp4Tig4YwYZt/hqJpi4IMbBkP97uGc5LA0ycfgey1oQekTMbShCMhHJ+JABsB8D1sWbjxaa+4QE5YSCvOgytnSyP/omvmHV+CuzH3Usf0IOfRG+/Zt9eUzSGekxJHe/vZ/KSo+rsgI0HPl905koZC5ej1ClODNUMeIP5uMqLFMfgpGKkS8IvyW2E5wqBS8SK1trOrtTHdXehPpE+/mTN5wFVzJB0vWjly0pUgNnF92w6XNTOvfJSCZP8kfczkrxNQS0VxAPWsw3cy0S7o2uImDEHSqJKegYlY5ETa5aV7MwZX3DwgKmVEclOz8jI1Q5kTcVBqekd8iEpL3ueAKmDbGhM12U/ELai5RqLi7foyvzWfqrpbd4USdYsfVRhCxz0rllmHTPpNtQ5weAdf0n+tQawl54ROqzcuvANLojoxfXz2bu1x1j4ALawXO+H6pZ3urnkbDMZwLHeyHItOr2maRBA7ULJFGc6tSVmNOYfigozrgnD4QENMiNV0f+iq/HmOoMhRLKC46QEYPRa5871MKHfzsyDQ4ZNWRJ4vvWGYP2WYtjYsvf9rIuAFiY2ljyQ6xRzAe+ejq+yL74mWCafswFEv0TUqrhI+JhWu632N+O3/TtIUeYHwZ0pT/VMA18AGMnJMwcO1ccy1Wk8pGSPBppnmrrrvzb2rzwjX+ArP4ulA3QN7XAAA==",
+                "avif": [
+                  {
+                    "w": 480,
+                    "url": "/media/design/bharatiyam-full/480.avif"
+                  },
+                  {
+                    "w": 945,
+                    "url": "/media/design/bharatiyam-full/945.avif"
+                  }
+                ],
+                "webp": [
+                  {
+                    "w": 480,
+                    "url": "/media/design/bharatiyam-full/480.webp"
+                  },
+                  {
+                    "w": 945,
+                    "url": "/media/design/bharatiyam-full/945.webp"
+                  }
+                ]
+              },
+              "focal": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "alt": "Bharatiyam: the full case study"
+            }
+          ]
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "prj-love-of-latte",
+      "slug": "love-of-latte",
+      "title": "Coffee Bean & Tea Leaf",
+      "category": "branding",
+      "tagline": "Love of Latte",
+      "summary": "Brand communication and campaign design across digital and retail touchpoints.",
+      "studio": "VOLUME",
+      "cover": {
+        "media": {
+          "id": "love-of-latte",
+          "width": 868,
+          "height": 384,
+          "color": "#f8f8f8",
+          "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAACQAwCdASoYAAsALrV2u12jqampiYC0SgAAuRqduITS2UxQD0oAAP74t7khOsrtKjAjMwr4IVwDQkEt0OuDwWY7I68rsmpbN7jgje95ELRUlhvPp6TqH4nMsG/d/OWhRrOIYe75si/m9ehUhjFrjVFeZhxWtNmwThTpGkWr7sPF6gLvqgxppPvS5SwAAA==",
+          "avif": [
+            {
+              "w": 480,
+              "url": "/media/design/love-of-latte/480.avif"
+            },
+            {
+              "w": 868,
+              "url": "/media/design/love-of-latte/868.avif"
+            }
+          ],
+          "webp": [
+            {
+              "w": 480,
+              "url": "/media/design/love-of-latte/480.webp"
+            },
+            {
+              "w": 868,
+              "url": "/media/design/love-of-latte/868.webp"
+            }
+          ]
+        },
+        "focal": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "alt": "Love of Latte campaign artwork in purple and white"
+      },
+      "blocks": [
+        {
+          "id": "blk-love-of-latte-1",
+          "type": "long",
+          "slots": [
+            {
+              "media": {
+                "id": "love-of-latte-full",
+                "width": 868,
+                "height": 3845,
+                "color": "#f8f8f8",
+                "lqip": "data:image/webp;base64,UklGRkQDAABXRUJQVlA4IDgDAABwDwCdASoYAGoAPu1uqlCppqOiqTgMyTAdiWYAvGAW9Ji+c9KzaDHT7G3uyu/PdE3SstCmGuU3cJiNJ1V0lrLMwMRH8q/u+J0mPGnKSnFbLuheQfF2DrLpNiI3AntITV0zH39zzlBe7ViyDwtFYJhP9FKz1o6av7AH2IUrBQV/3ONTB0AA/vlyzl/z4F8dUnMF+ug6UpmOJSatoEyFo4Bfb79FKbojgLHtrdMOoS8lWohF/ldeDqGfIHdxcLubmj+q18E9Cm0Ky+gCDsuQYomBgp/PMWCA+TrzfpjZ4bU9Ezb7Un+Qz+ZutngKrvfHjLg4OOmVmmhD+LAZlg0VtP875Rd3L38ir6SxeBG3KQmZcDyP+lNJ1MEvX80HV4oHDp6fB+zUKUodrVIkuIBuxgNpxLJvfLVNemAmaUqzSPDMrEbXXZvOB9vk9QTdZPTZ0gEPMJZ6rTePcT/tZs4+/gY6HDkbuJWb+OcG79UbWgHQH1Cgty0/hOqVPlSxKiIO0qlshEz13uUhAVUagZYs3sPVjvt3CgKa+GhWK7yzPYLqnOFx3NXNhSoNapuqLN9RD6f62YF4GHbshIPngFkGaDxjhKZXYdMelTJ5IKTmHESYwPQHlPi7PMWDN72iHLYEMQ/UtxaQyeMCyfoG+cNiyVL4H1hsDMgWwhKC8T0744dfGQn2RcRBMY8/siXvPF2AWmD3P/gopnNT0i0FTicSRfSM+KaJggGT+CD0LMBFQE7KYuhXP/9+9sPaJjClaFNKoNasV3PRtnCX111GRQrePOL36r1+NceH6FLc7aNerm+CHcHzOhgxV/fMweAezum8GffAOFY10thtvfKfFusflebuS90/2xLCQ0RoOS/Wr2WWUlxYZHbPioJi0AXsyJqoZi5VFf7zxlPMdEpVGYWMk5oyX6vQMNP4Hu4aZ4P7LK82iV61CUNkCMj8QyHwzYF0TEHKEt9fZYN3Q8BNwzg+YyF7oSA9u944ZNmdXRQfmNW1ow7vkZq261GHuoXMZ7YZ8KrI8x+ZNVzI06K2T3SHOxLDUdxpMWg0AfeaKt+Oes6+n9mfmodsgOhyj8QtxSkyZJJWl/XkigAAAA==",
+                "avif": [
+                  {
+                    "w": 480,
+                    "url": "/media/design/love-of-latte-full/480.avif"
+                  },
+                  {
+                    "w": 868,
+                    "url": "/media/design/love-of-latte-full/868.avif"
+                  }
+                ],
+                "webp": [
+                  {
+                    "w": 480,
+                    "url": "/media/design/love-of-latte-full/480.webp"
+                  },
+                  {
+                    "w": 868,
+                    "url": "/media/design/love-of-latte-full/868.webp"
+                  }
+                ]
+              },
+              "focal": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "alt": "Coffee Bean & Tea Leaf, Love of Latte: the full case study"
+            }
+          ]
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "prj-sipgel",
+      "slug": "sipgel",
+      "title": "SipGel",
+      "category": "illustrations",
+      "tagline": "",
+      "summary": "Bespoke illustration system to support the brand's visual language across communication.",
+      "studio": "VOLUME",
+      "cover": {
+        "media": {
+          "id": "sipgel",
+          "width": 3000,
+          "height": 3000,
+          "color": "#080808",
+          "lqip": "data:image/webp;base64,UklGRiYDAABXRUJQVlA4WAoAAAAQAAAAFwAAFwAAQUxQSLwBAAANkLtt+2G5G3q+329mztq2vV1sp2Nl26ySLXOlVeXWqW3bdnZjW+fMzBdFxATwXwFQQFQk5L8iYoy11hJEY2Heq6jof4xxrOMmOb+iv+TDzCVXll4yIYgYz3NTEx49+KzxCX0GfO3asn0LgON6btbHvV/AJuYOZ9PuPsvKdv/EGM9JvnsYQbyEngQdZn5cRMlrMY6T/PgcEmLjc5uJVqoZPkdQI0k/TiAh4iZW+0RMYLJ+fQGcxMtIiFjnZwdCB+WpJPwA9+tLFBH3x/APCEAbHjG1rwCRuI+dBqEGVN6DG9PgK6LGk8yRBA7/+gQRX3+KYL24T0W5GEUQGm4GFv1pDV7w/V1qPqL4uNQ++WIJfbGRX+9jzCKw/sc8DURMGKKoxjSx20JU2Ncy0RunyyXrq6JOSeee7VA1kNG2ODZs0IfkxNdqgwErUEIsRjtvvLimadLBw8dfIZqNr+IQGIxmD5yxo2na6rUYJfrlc5avcREREQ1oObCgsdMXVe77vdXyr4biKE2HNmRJqFw/bV+58SlFRbkpBg13vnH4BsqPrReJ/vj8UpMS0+zPexFEUAAjoAQvH754FwUkBABWUDggRAEAALAGAJ0BKhgAGAA+7W6uUimmJCKoCAEwHYlsAJ0yhIQ0gC9TivZ9vT10O+VgfPO55QGPYpNMzzGHeKxuElwAAPdKnvltFiBLD6j5tPtUedJiZna6Gk5SgjAbNFNP/WoE6Jcd2GdbqZJQnLBkfc43CsXELzxyxfqmMwXjOXE5P5IHDRJ2oj/joYPEISLVlH92GXYCj7jw+zu8uDdfZ7Gyy5Pj/l+JDdyVbi2rpSIJkAdbWuIhr/nH371vvMrYPMmkPUg+mAdzzmv38m/vCAoziCAyv8903Vqv6yi6wqE3ENsCt3h0uz8dHJxTeiOdNdvIVmDfoFbu6g0tTtI+s4d/7RQesZ+xwNF53kKk/SWfDFeDw7iaLJlw6JRG/YsQ+U2i2w4W/5j/j3HF6Ref2eyLo1+v0tg+nycbkikku8zt+f/1NaQAAA==",
+          "avif": [
+            {
+              "w": 480,
+              "url": "/media/design/sipgel/480.avif"
+            },
+            {
+              "w": 960,
+              "url": "/media/design/sipgel/960.avif"
+            },
+            {
+              "w": 1440,
+              "url": "/media/design/sipgel/1440.avif"
+            },
+            {
+              "w": 1920,
+              "url": "/media/design/sipgel/1920.avif"
+            },
+            {
+              "w": 2560,
+              "url": "/media/design/sipgel/2560.avif"
+            }
+          ],
+          "webp": [
+            {
+              "w": 480,
+              "url": "/media/design/sipgel/480.webp"
+            },
+            {
+              "w": 960,
+              "url": "/media/design/sipgel/960.webp"
+            },
+            {
+              "w": 1440,
+              "url": "/media/design/sipgel/1440.webp"
+            },
+            {
+              "w": 1920,
+              "url": "/media/design/sipgel/1920.webp"
+            },
+            {
+              "w": 2560,
+              "url": "/media/design/sipgel/2560.webp"
+            }
+          ]
+        },
+        "focal": {
+          "x": 0.5,
+          "y": 0.45
+        },
+        "alt": "SipGel illustration of a woman stretching in soft peach, lilac and grey"
+      },
+      "blocks": [
+        {
+          "id": "blk-sipgel-1",
+          "type": "long",
+          "slots": [
+            {
+              "media": {
+                "id": "sipgel-full",
+                "width": 2494,
+                "height": 3300,
+                "color": "#f8f8f8",
+                "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAACQBACdASoYACAAPtleok2oJaMiN/qoAQAbCWMAyFwh305RiqrlpjkgwBlQikAA/vTcamqqNFVcvYeU87XiPq5v72+yod0okAI0lH5xROFHFQaKrIzqI87km8ttTFxFY1W65ukTBAhSB0SLSLDYs2bG0V/+KwAA",
+                "avif": [
+                  {
+                    "w": 480,
+                    "url": "/media/design/sipgel-full/480.avif"
+                  },
+                  {
+                    "w": 960,
+                    "url": "/media/design/sipgel-full/960.avif"
+                  },
+                  {
+                    "w": 1440,
+                    "url": "/media/design/sipgel-full/1440.avif"
+                  },
+                  {
+                    "w": 1920,
+                    "url": "/media/design/sipgel-full/1920.avif"
+                  },
+                  {
+                    "w": 2494,
+                    "url": "/media/design/sipgel-full/2494.avif"
+                  }
+                ],
+                "webp": [
+                  {
+                    "w": 480,
+                    "url": "/media/design/sipgel-full/480.webp"
+                  },
+                  {
+                    "w": 960,
+                    "url": "/media/design/sipgel-full/960.webp"
+                  },
+                  {
+                    "w": 1440,
+                    "url": "/media/design/sipgel-full/1440.webp"
+                  },
+                  {
+                    "w": 1920,
+                    "url": "/media/design/sipgel-full/1920.webp"
+                  },
+                  {
+                    "w": 2494,
+                    "url": "/media/design/sipgel-full/2494.webp"
+                  }
+                ]
+              },
+              "focal": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "alt": "SipGel: the full case study"
+            }
+          ]
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "prj-kouyou",
+      "slug": "kouyou",
+      "title": "Kouyou",
+      "category": "illustrations",
+      "tagline": "",
+      "summary": "Illustration set to support the brand's visual language across communications and brand video.",
+      "studio": "VOLUME",
+      "cover": {
+        "media": {
+          "id": "kouyou",
+          "width": 5000,
+          "height": 4700,
+          "color": "#e8d8a8",
+          "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwBQCdASoYABcAPu1sqlEppaOiqAqpMB2JQBYj8KCEApx8LOvGmCOfFoiea2yK36DuyAD+7fxcKzjs9WEc+FjNyh0kaHAuM2fYntt8w7CDnEN5ve4yFbEh6yJCRt8r97Mnshw0Hgb4E0drXHoH3Jp/WvgFlZMAAAA=",
+          "avif": [
+            {
+              "w": 480,
+              "url": "/media/design/kouyou/480.avif"
+            },
+            {
+              "w": 960,
+              "url": "/media/design/kouyou/960.avif"
+            },
+            {
+              "w": 1440,
+              "url": "/media/design/kouyou/1440.avif"
+            },
+            {
+              "w": 1920,
+              "url": "/media/design/kouyou/1920.avif"
+            },
+            {
+              "w": 2560,
+              "url": "/media/design/kouyou/2560.avif"
+            }
+          ],
+          "webp": [
+            {
+              "w": 480,
+              "url": "/media/design/kouyou/480.webp"
+            },
+            {
+              "w": 960,
+              "url": "/media/design/kouyou/960.webp"
+            },
+            {
+              "w": 1440,
+              "url": "/media/design/kouyou/1440.webp"
+            },
+            {
+              "w": 1920,
+              "url": "/media/design/kouyou/1920.webp"
+            },
+            {
+              "w": 2560,
+              "url": "/media/design/kouyou/2560.webp"
+            }
+          ]
+        },
+        "focal": {
+          "x": 0.5,
+          "y": 0.6
+        },
+        "alt": "Kouyou illustration of tall green grass against a warm, hazy background"
+      },
+      "blocks": [
+        {
+          "id": "blk-kouyou-1",
+          "type": "long",
+          "slots": [
+            {
+              "media": {
+                "id": "kouyou-full",
+                "width": 1379,
+                "height": 3667,
+                "color": "#e8e8b8",
+                "lqip": "data:image/webp;base64,UklGRi4BAABXRUJQVlA4ICIBAACQBwCdASoYAEAAPu1oqk+ppiOiKA1RMB2JZACzs3WDkCTz9cWtlLoyTFm12+g4NUIUqdT7M2xrq/r5MGTJV3jV1EpR/wAA/uqDjk2Wq7bd+DRWV6rlMtGe0KRsLmn7rLNRWMFbGnQrx8ehjZfiZRPcvx8lL6/vEaQ1NrpyBFKpxi9XEvqIuhvguB6bbzfvToOymp21geyaEyj3yNteIYRDeJ0/DjSfb7+swNcuRqEqoqiXPZTo+MlE6QS4xYMFr/PFWymSuTEQ5nlNwGDvC+F650kXpqTHzCxYcnwJ4S6py94XRUTOWZpbGLvu941moii9tWW+8XRomk9eIcz/vB//rSFgTW7P7r+9sjKZ8fbQzE6VDR/On8vimpKgDZsnAAAAAA==",
+                "avif": [
+                  {
+                    "w": 480,
+                    "url": "/media/design/kouyou-full/480.avif"
+                  },
+                  {
+                    "w": 960,
+                    "url": "/media/design/kouyou-full/960.avif"
+                  },
+                  {
+                    "w": 1379,
+                    "url": "/media/design/kouyou-full/1379.avif"
+                  }
+                ],
+                "webp": [
+                  {
+                    "w": 480,
+                    "url": "/media/design/kouyou-full/480.webp"
+                  },
+                  {
+                    "w": 960,
+                    "url": "/media/design/kouyou-full/960.webp"
+                  },
+                  {
+                    "w": 1379,
+                    "url": "/media/design/kouyou-full/1379.webp"
+                  }
+                ]
+              },
+              "focal": {
+                "x": 0.5,
+                "y": 0.5
+              },
+              "alt": "Kouyou: the full case study"
+            }
+          ]
+        }
+      ],
+      "published": true
+    }
+  ],
+  "artworks": [
+    {
+      "id": "art-lost-identity",
+      "slug": "lost-identity",
+      "title": "Lost Identity",
+      "medium": "Oil on canvas",
+      "year": "",
+      "size": "",
+      "series": "",
+      "description": "A woman draped in ceremonial red holds wheat stalks framing a face that has been pixelated into absence. The adornments remain: bangles, rings, the careful dress of a woman prepared to be seen. But her face has been redacted.\n\nLost Identity asks who performs this erasure, and in whose name. When a woman's face is deemed the cause of another's behavior, the answer is always the same: hide her. The painting refuses that logic. Her hands, unhidden and undeniable, remain as testimony.",
+      "image": {
+        "id": "p-01",
+        "width": 3200,
+        "height": 4421,
+        "color": "#080808",
+        "lqip": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAAAQBwCdASoYACEAPu1ork6ppiSiKrgMATAdiWwAtQlOPmD6ACk3yzHCAXVHHpO1LRg/thbaVe77czb6Fe8tLus5AAD+8qPaxaaNlttuZLLICZPhfuE334LQIW++aZlkQ8gux2Bmi2b7feCSl9mP/xy1bF67vkRKkc6I+mGHMDj5vx8tMmMOI7qCAY37R0jeF1BKTbtwuZRTyYQ5QbKqEIcCFhw/lQSBexEbSKAlI+BugBI7nhyNxYAQfUsGrs4ZpsBMAgm70Nhi1lqjxa1elcFUo+iiIq4e3Y5BuVgA",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/p-01/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-01/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-01/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-01/1920.avif"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/p-01/2560.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/p-01/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-01/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-01/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-01/1920.webp"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/p-01/2560.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-a-duty-now",
+      "slug": "a-duty-now",
+      "title": "A Duty Now",
+      "medium": "Oil on canvas",
+      "year": "",
+      "size": "",
+      "series": "",
+      "description": "She lies inverted, draped in red, a tear caught mid-fall from the corner of her eye. The composition itself is disorienting, because it should be.\n\nA Duty Now confronts what Indian law has for too long refused to name: marital rape. The red sweeping across the canvas is the color of sindoor, of auspicious beginnings. Here it billows like something never asked for. She is in her own home. She is not safe. And the law, for too long, has agreed with her silence.",
+      "image": {
+        "id": "p-02",
+        "width": 4521,
+        "height": 3385,
+        "color": "#080808",
+        "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABwBACdASoYABIAPu1qq08ppiOiMBgIATAdiUAYmwId/gwZHq7kTnW9KyKZAAD+8qBjArHX1/TmQCYT7rFoKUBKi+lLc068eRv0q9UpKRFczFGu4EMkIi+uEfAoPY7fQqKsGVCqAAA=",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/p-02/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-02/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-02/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-02/1920.avif"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/p-02/2560.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/p-02/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-02/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-02/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-02/1920.webp"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/p-02/2560.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-the-mother",
+      "slug": "the-mother",
+      "title": "The Mother",
+      "medium": "Digital painting, Autodesk Sketchbook",
+      "year": "",
+      "size": "",
+      "series": "Expressions",
+      "description": "Expression: disgust and disappointment.\n\n“You saw something you did not wish for, feeling disgusted and disappointed as you had no control over it.”",
+      "image": {
+        "id": "p-09",
+        "width": 2318,
+        "height": 2589,
+        "color": "#180808",
+        "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAACwBACdASoYABsAPu1kq0+ppSOiMBgIATAdiWMAt7gRAUhrtTcUYevyoBo6EoAAAP7w1B7zVhcyw0EGD6Vn4IR/hoK4K/LKv2t1Nd/TZRmZO9oXeCfAW1BdGxF0F9Su6zR5XlW1P6w5r7OYQ8LyO3P3nqBSPGonNYVoZwAA",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/p-09/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-09/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-09/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-09/1920.avif"
+          },
+          {
+            "w": 2318,
+            "url": "/media/art/p-09/2318.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/p-09/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-09/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-09/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-09/1920.webp"
+          },
+          {
+            "w": 2318,
+            "url": "/media/art/p-09/2318.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-the-sister",
+      "slug": "the-sister",
+      "title": "The Sister",
+      "medium": "Digital painting, Autodesk Sketchbook",
+      "year": "",
+      "size": "",
+      "series": "Expressions",
+      "description": "Expression: betrayal and heartbreak.\n\n“Everyone blames you and no one believes you. You look up to one person you trust and you realise that the person was never worthy of your trust.”",
+      "image": {
+        "id": "b-03",
+        "width": 2331,
+        "height": 2641,
+        "color": "#180808",
+        "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAACQBACdASoYABsAPu1qq1CppaOiqAqpMB2JQBdgAi/Ubts289GEnwF03TeRBugA/vKlTC6FBbWB0pvSDgrttiaK2FYWQ74xQ3g+WurlQuBW/MvyCfPgWGNCw7Fc91/qBTVgRVteTFaLrqMdarUepVAtOwzH5ZrES7aCyRe3yq3f4aJ4AxcEQAAA",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/b-03/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/b-03/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/b-03/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/b-03/1920.avif"
+          },
+          {
+            "w": 2331,
+            "url": "/media/art/b-03/2331.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/b-03/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/b-03/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/b-03/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/b-03/1920.webp"
+          },
+          {
+            "w": 2331,
+            "url": "/media/art/b-03/2331.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-the-father",
+      "slug": "the-father",
+      "title": "The Father",
+      "medium": "Digital painting, Autodesk Sketchbook",
+      "year": "",
+      "size": "",
+      "series": "Expressions",
+      "description": "Expression: toxic masculinity.\n\n“You know you cannot handle it anymore but you put on a happy face because ‘men don't cry’.”",
+      "image": {
+        "id": "p-08",
+        "width": 2331,
+        "height": 2471,
+        "color": "#181818",
+        "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwBACdASoYABkAPu1crE4ppKSiMBgMATAdiWMAw6wQ78elf7NAht4xDOWLMW9L1AAA/u6IzpMd2b5Gqmh9NqmQSomaFMpWJ/W+Xu5zUhCimm9UzqlxTsISV4ZsW8O+QmCfsVq0/FJ6ArReOkeGAe82XAA=",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/p-08/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-08/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-08/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-08/1920.avif"
+          },
+          {
+            "w": 2331,
+            "url": "/media/art/p-08/2331.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/p-08/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-08/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-08/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-08/1920.webp"
+          },
+          {
+            "w": 2331,
+            "url": "/media/art/p-08/2331.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-the-brother",
+      "slug": "the-brother",
+      "title": "The Brother",
+      "medium": "Digital painting, Autodesk Sketchbook",
+      "year": "",
+      "size": "",
+      "series": "Expressions",
+      "description": "Expression: guilt and realisation.\n\n“When you realise that you might have done something really wrong, and now you cannot undo it.”",
+      "image": {
+        "id": "p-07",
+        "width": 2331,
+        "height": 2398,
+        "color": "#181808",
+        "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAwCdASoYABkAPu1or1CppaQiqAqpMB2JZQDG9BERN+AiDBtiGQAAAP7vYiaLqejS9NX0m+WfNZJ3SlG95AF86C3lKQTxPj7zlxY9GUTjO89LFzZR/8BZnjgmmHbpLdNLtk1E2JvuKm7x5eZAAA==",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/p-07/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-07/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-07/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-07/1920.avif"
+          },
+          {
+            "w": 2331,
+            "url": "/media/art/p-07/2331.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/p-07/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-07/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-07/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-07/1920.webp"
+          },
+          {
+            "w": 2331,
+            "url": "/media/art/p-07/2331.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-wrath",
+      "slug": "wrath",
+      "title": "Wrath",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "series": "",
+      "description": "",
+      "image": {
+        "id": "p-05",
+        "width": 2100,
+        "height": 2335,
+        "color": "#080808",
+        "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAwCdASoYABsAPu1srFEppaQnKAqpMB2JZwDCgBb3fNAA/vDcXCgUPj0pzsugZyvfr07PHNCNlwrusx+AXJ9TYAA=",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/p-05/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-05/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-05/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-05/1920.avif"
+          },
+          {
+            "w": 2100,
+            "url": "/media/art/p-05/2100.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/p-05/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-05/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-05/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-05/1920.webp"
+          },
+          {
+            "w": 2100,
+            "url": "/media/art/p-05/2100.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-untitled-03",
+      "slug": "untitled-03",
+      "title": "Untitled III",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "series": "",
+      "description": "",
+      "image": {
+        "id": "p-03",
+        "width": 4376,
+        "height": 3191,
+        "color": "#080808",
+        "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwBACdASoYABIAPu1kqk2ppaQiMAgBMB2JZwAAW+pF3QjDzbuLpSKf8RTh2NdQAP70KP7rMOz9QoIiZcF7cHJMUaNF/uVM5l2xcnglfO7xa3IGI11LckmaoUAAAA==",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/p-03/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-03/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-03/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-03/1920.avif"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/p-03/2560.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/p-03/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-03/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-03/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-03/1920.webp"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/p-03/2560.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-untitled-04",
+      "slug": "untitled-04",
+      "title": "Untitled IV",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "series": "",
+      "description": "",
+      "image": {
+        "id": "p-04",
+        "width": 3326,
+        "height": 4465,
+        "color": "#080808",
+        "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADQBACdASoYACAAPt1UpE2opKOiN/qoARAbiWcAAFu1m2oX2o/MQ5rC0pr8ujsgAAD+9WUXg56z4nXp7kDP2crkhVsiVeklr9zkOHvo7/FnqXU4e8ZqIExybSlOOIfW9Wa5G2hY9RgAAA==",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/p-04/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-04/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-04/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-04/1920.avif"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/p-04/2560.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/p-04/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-04/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-04/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-04/1920.webp"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/p-04/2560.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-untitled-06",
+      "slug": "untitled-06",
+      "title": "Untitled VI",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "series": "",
+      "description": "",
+      "image": {
+        "id": "p-06",
+        "width": 4120,
+        "height": 2917,
+        "color": "#c80808",
+        "lqip": "data:image/webp;base64,UklGRgwBAABXRUJQVlA4IAABAABwBgCdASoYABEAPu1qr1AppaSiqAqpMB2JbACdMoRgDh2qCPNSySR4HvkEjixOv1QU+M+KQbplh9nVf5wA/qz/QVfIhxtQQrGQJXeCIZ5O0R1EJVn6dXl7zVuAxbAybnrfNFMQb8bjflH0IGeOvr2ny+HzSoVPYAo7d/zgMN4oSNWyf8f963qfJvovirSI3ZnJh5Jy29hHZhihlJna/nGZfUXQ2ilree0caXDF2on2UK5E1upUjL1J2kqHYFojaJCsDzEXEwWiLDmyJIvnOtsscUKwZMA6eC6+afj/DhiVjQ+PzevVpmz9DLsaBKw74ceIgAYciBkqD7K8zcYEAAAA",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/p-06/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-06/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-06/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-06/1920.avif"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/p-06/2560.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/p-06/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-06/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-06/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-06/1920.webp"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/p-06/2560.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-untitled-10",
+      "slug": "untitled-10",
+      "title": "Untitled X",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "series": "",
+      "description": "",
+      "image": {
+        "id": "p-10",
+        "width": 3326,
+        "height": 4465,
+        "color": "#080808",
+        "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAQBACdASoYACAAPu1gq02ppaQiMBgMATAdiWQAwcwQ72qsBgFdCHHoAAD+8pu+8FnT1OYVCNAQeVjmLU9UXw/h5VaqzFWdGKoMGeXdCvBvCs4ResT6kTvrn+rFzgaIxXJfmQceHYLfpr2elYAAAA==",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/p-10/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-10/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-10/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-10/1920.avif"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/p-10/2560.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/p-10/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-10/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-10/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-10/1920.webp"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/p-10/2560.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-untitled-11",
+      "slug": "untitled-11",
+      "title": "Untitled XI",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "series": "",
+      "description": "",
+      "image": {
+        "id": "p-11",
+        "width": 3689,
+        "height": 1688,
+        "color": "#f8f8f8",
+        "lqip": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAABwBACdASoYAAsAPu1iqU2ppaOiMAgBMB2JbACdAYwc5uI0Qq7OCnvWa9CeAAD+7P3m6pbXynmVaiDmIr/63IU5g1hcw9UQMSPFGWOWqOkQDGwfaqVIJpHFK3hfh6/wSz7A+nZWiJK50e0QtWoJqeZhbDAxt5BhvqnCY/3PQoVPPE2Es0f/KjySU67iQcIRjz+vaXPgez3cyeRS+M7NaHi3aANVAYNZ84I+Avr+VgAYkefDsAWbhrhbUs/zbA1KAAA=",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/p-11/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-11/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-11/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-11/1920.avif"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/p-11/2560.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/p-11/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/p-11/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/p-11/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/p-11/1920.webp"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/p-11/2560.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-untitled-embrace",
+      "slug": "untitled-embrace",
+      "title": "Untitled",
+      "medium": "Oil on canvas",
+      "year": "",
+      "size": "",
+      "series": "",
+      "description": "",
+      "image": {
+        "id": "untitled-1",
+        "width": 4032,
+        "height": 3024,
+        "color": "#080808",
+        "lqip": "data:image/webp;base64,UklGRmgBAABXRUJQVlA4WAoAAAAQAAAAFwAAEQAAQUxQSJYAAAANcFXbtqqsc54L1oBCRCAMPQhAIQYN4Mtd78E5ESJiAvDPB/vtZR+ux4PFaZomcVYW0yHE/W6dVZoUpfD5zmQk2CW7oSAAhoHFZ8CEmO+CgBDfcNYAIh6G10f1iO6AeIiB4BkAxMPcNIC65CeIAsF+M4niGySGym8C2Rl0nM6XqZ1u171G2DmcTu0Oxqy3ggvv4c7HBQBWUDggrAAAANAEAJ0BKhgAEgA+7WKtUCmlJCKwGAgBMB2JZACxB1gALVNptWe5i/dyhDyy9NgAAPhXp9ZRlsLdOVTZJuqyWE7iIzTpqQw5cVmnutaO22UDtFP4qNaUlxPchRIsWdV8iB4w0xIe2xN8v/A/joVt/xihFLC4kdXbk9pYi412UlUwONNMI2XDU9UpYhUCMVLwlL8onv1N/ZxAAMGhPRbJrT1yvuHB8toCeSmAAAA=",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/untitled-1/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/untitled-1/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/untitled-1/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/untitled-1/1920.avif"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/untitled-1/2560.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/untitled-1/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/untitled-1/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/untitled-1/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/untitled-1/1920.webp"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/untitled-1/2560.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-untitled-12",
+      "slug": "untitled-12",
+      "title": "Untitled XII",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "series": "",
+      "description": "",
+      "image": {
+        "id": "n-01",
+        "width": 3003,
+        "height": 3421,
+        "color": "#586838",
+        "lqip": "data:image/webp;base64,UklGRsoAAABXRUJQVlA4IL4AAAAQBQCdASoYABsAPu1usFKppiSiqAgBMB2JbACxHt8ltwvJ+SNaj6YeyEQpWibpLKAAAP4Q4JMiq6BMTay/L+ypkM8Z+3+6VeT57+vQZeeDaQL/+zV1ZYPI8jPbOgR3HvcjLEENP2SLcYVw6Z3tDT1KseGlYWGxDJ2/UAP5btd8bz8ITJDZjXbEyOqNvVXjO8VqP82HwIcx2NrFjO5SnLb5iiADQKValk+/VUpTJ/4Yv5zbu13FW1gO4O6vowAA",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/n-01/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/n-01/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/n-01/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/n-01/1920.avif"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/n-01/2560.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/n-01/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/n-01/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/n-01/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/n-01/1920.webp"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/n-01/2560.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-untitled-13",
+      "slug": "untitled-13",
+      "title": "Untitled XIII",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "series": "",
+      "description": "",
+      "image": {
+        "id": "n-02",
+        "width": 2166,
+        "height": 2415,
+        "color": "#080808",
+        "lqip": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAAAwBQCdASoYABsAPuFSpE2opCOiN/qoARAcCUAYz4Q3eFXuqwcJO1ZM6E7vXfRohEL2YAD+9W+V/UUSxtwj0DYwCwK+Ql/hW/n6uLVDcrYCc0WYB3ZHcq3HWhk9e3L17st5EzCLKgFf1B6mLAfclrwUaNE7OF9hcaSR2PmktktfaJ9VUvi5PgMolqd8fITgJ8aMyndBDI5oJeS/1yIg+dMYsOIYYAAA",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/n-02/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/n-02/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/n-02/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/n-02/1920.avif"
+          },
+          {
+            "w": 2166,
+            "url": "/media/art/n-02/2166.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/n-02/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/n-02/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/n-02/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/n-02/1920.webp"
+          },
+          {
+            "w": 2166,
+            "url": "/media/art/n-02/2166.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-untitled-14",
+      "slug": "untitled-14",
+      "title": "Untitled XIV",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "series": "",
+      "description": "",
+      "image": {
+        "id": "n-03",
+        "width": 3022,
+        "height": 3405,
+        "color": "#080808",
+        "lqip": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAABwBQCdASoYABsAPu1irVAppSQisBgIATAdiWwAuwAQ78MfF0ZqPwWX4MCbldsG6sxDtF1AAP7yl95qn55twqY4ZMg8D9Dv7wt8DK5/lryifp0qPFqPDs+aSWUwA8L+W7bMIoWuyE8na3aQ/xFH78OO14mSZrMNcX4Khuwa4WH5F5vLKn2VQMf8TfDQK2AwsO7F+sS54syvfPPfitpR3PgVLNh4I3NA1xwYKmJfAAA=",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/n-03/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/n-03/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/n-03/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/n-03/1920.avif"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/n-03/2560.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/n-03/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/n-03/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/n-03/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/n-03/1920.webp"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/n-03/2560.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-untitled-15",
+      "slug": "untitled-15",
+      "title": "Untitled XV",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "series": "",
+      "description": "",
+      "image": {
+        "id": "n-04",
+        "width": 2815,
+        "height": 3831,
+        "color": "#080808",
+        "lqip": "data:image/webp;base64,UklGRlIBAABXRUJQVlA4IEYBAACwBwCdASoYACEAPu1Ypk4ppKMiNVgIATAdiWwAnTKDykM00gDkLCSD30QpddhZaWdT90kauJVsQNfadjCZU0wyY0pQNugAAM4G5uQWDTrwt+TnHDaPhVBAVgMIQ21Gq5u4aapO9tTH4XNsxFAp8cUbhNSWg/W2hc5wn/2TAovEZhYjplrZ0Wc/PnOnT5uP7yp2bsAltj0yjaDrtG1hzlsRPlbtw8CcxdP14wlRGsYjztsC2QB0CiD7dhxV9edFr3kGoJIy2aFMIh2XO0RKkFEy3vc9T4BbMSqnHiIWTl6o64FeVW0R2rdwPhsPrxpiElRe7XC6lTzml0a63TUZwurkceTwMohVRbliprMN64ri92fDtY39pulFskfWWBrMRcH1i4qUD2SkoOO/j5/fUytpbmeuy0t0ndMGWGk77v+JQY4BdqAAAA==",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/n-04/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/n-04/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/n-04/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/n-04/1920.avif"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/n-04/2560.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/n-04/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/n-04/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/n-04/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/n-04/1920.webp"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/n-04/2560.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-untitled-16",
+      "slug": "untitled-16",
+      "title": "Untitled XVI",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "series": "",
+      "description": "",
+      "image": {
+        "id": "n-05",
+        "width": 2751,
+        "height": 3831,
+        "color": "#080808",
+        "lqip": "data:image/webp;base64,UklGRiQBAABXRUJQVlA4IBgBAABwBgCdASoYACEAPu1orU8ppiSiKrgMATAdiWoAnTL581EsejA8BwDt7ml4f3DBLUhcYw8b5xZCkd9jf4AA+tjfrkua9B5EG0UmaLzu33RL17IytZpv2JUfN/tsYwK8SDZSCE/BBAr6dXXOOwwhxPLWYPkrqeyTJN42CZNzENI4M4e/QnySkML5z7xIeIyhq2UBZJbkjWOIx8Do0m6NZL0HLvyWSczgNvgQF0UDHdmJV3EGIXVkxJsJxDUxmcOGW5vc8ll/Hf4Ex3MEUNcMOiXeA/0jEwQjLV12oQZP/wXLJ4POBLvaUuUy0TASY85oQOyW6MQPhZBiKrnLInaneoPKKVe6nqpPEvzXV0+gMLq5g/vcarWW8AAA",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/n-05/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/n-05/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/n-05/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/n-05/1920.avif"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/n-05/2560.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/n-05/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/n-05/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/n-05/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/n-05/1920.webp"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/n-05/2560.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-untitled-17",
+      "slug": "untitled-17",
+      "title": "Untitled XVII",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "series": "",
+      "description": "",
+      "image": {
+        "id": "n-06",
+        "width": 3129,
+        "height": 4161,
+        "color": "#181818",
+        "lqip": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAABQBQCdASoYACAAPu1qrVCppaQiqAqpMB2JbAC2yDTw5ASkBWMGaEEH+Bj6hJ4G+0/HEFQA/u96SIzjIepuofJh9voyYzt5jRBPq3dbSxByoO87xugH4Cuf62thME2koQXkOq+wASomRhSDLqYfB3XVrF/iQCufXe9P5wMirfaoGiK5XdTqTDXHGPp2PaeKJ6g/7vKafoBds3ymZei361cowu/6FyQgRIev03obo7p7B/ZE/uB/jCr+KwQUBY2VLp280eT3E1s8Or9UdgEXAAAA",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/n-06/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/n-06/960.avif"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/n-06/1440.avif"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/n-06/1920.avif"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/n-06/2560.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/n-06/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/n-06/960.webp"
+          },
+          {
+            "w": 1440,
+            "url": "/media/art/n-06/1440.webp"
+          },
+          {
+            "w": 1920,
+            "url": "/media/art/n-06/1920.webp"
+          },
+          {
+            "w": 2560,
+            "url": "/media/art/n-06/2560.webp"
+          }
+        ]
+      },
+      "published": true
+    },
+    {
+      "id": "art-untitled-18",
+      "slug": "untitled-18",
+      "title": "Untitled XVIII",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "series": "",
+      "description": "",
+      "image": {
+        "id": "n-07",
+        "width": 1185,
+        "height": 1600,
+        "color": "#c82828",
+        "lqip": "data:image/webp;base64,UklGRjYBAABXRUJQVlA4ICoBAADQBgCdASoYACAAPu1iq1AppSOisBgIATAdiWwAnTMS/Q6CKX3ZBvLCNwGkRBvbc3G4zdO++o0Jr/zWx7zBXkgA/my+wcOdFQUPS8YSiRZVY7XK5+i1twdo8W+pfJpYs7vr9RYXadz8JlwFgpT9Rkj1cHjHHA4KOcAzr/9TgmGNDBO68Pd9eHPqyOJhABsDpkI7yeRhKMhRccB2XG62DYuaXAOCuOGfYsKpNletEC0EvM+/8G+ikvpxEIqry9jPKoiLAO/VWwh9aPnVwB5llzg4Qx8y8Uqv88n6PTW6csj5Izsn09uzrfcKOhOM5SEsz92MB9yTPkzOq9Lz+KypmgLKN4B9Gl/zhfj7WbWB3mwRGu36njJwsnUKqHf4woiwx/MfRjoNtw74mAAA",
+        "avif": [
+          {
+            "w": 480,
+            "url": "/media/art/n-07/480.avif"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/n-07/960.avif"
+          },
+          {
+            "w": 1185,
+            "url": "/media/art/n-07/1185.avif"
+          }
+        ],
+        "webp": [
+          {
+            "w": 480,
+            "url": "/media/art/n-07/480.webp"
+          },
+          {
+            "w": 960,
+            "url": "/media/art/n-07/960.webp"
+          },
+          {
+            "w": 1185,
+            "url": "/media/art/n-07/1185.webp"
+          }
+        ]
+      },
+      "published": true
+    }
+  ]
+}

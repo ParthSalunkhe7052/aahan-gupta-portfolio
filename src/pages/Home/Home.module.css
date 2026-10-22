@@ -1,0 +1,382 @@
+/*
+ * Desktop: one 16:9 composition in "frame units" (--u = 1/1920 of the stage
+ * width) so the DOM lines up with the fire video, which shares the frame.
+ * Positions are measured from the 4K Home mockup.
+ */
+
+.home {
+  position: relative;
+  min-height: 100svh;
+  background: #000;
+  color: var(--ash);
+  overflow: clip;
+}
+
+.home[data-layout='desktop'] {
+  display: grid;
+  /* Fixed tracks: the stage is wider than the viewport, and must overflow evenly on both sides. */
+  grid-template: 100% / 100%;
+  place-items: center;
+  height: 100svh;
+}
+
+.stage {
+  --sw: min(100vw, calc(100svh * 16 / 9));
+  --u: calc(var(--sw) / 1920);
+  position: relative;
+  width: var(--sw);
+  height: calc(var(--sw) * 9 / 16);
+}
+
+/*
+ * The composition only fills about two thirds of the frame, so the stage (poster, text and the canvas
+ * that shares its frame) is made larger than the viewport and the empty edge of the frame is clipped.
+ * Everything is in frame units, so it all scales together and stays lined up. The content sits a little
+ * right of and below the frame's centre, hence the nudge. "Sound on" lives outside the stage.
+ */
+.home[data-layout='desktop'] .stage {
+  --sw: min(120vw, calc(130svh * 16 / 9));
+  transform: translate(-2%, -1%);
+}
+
+.home[data-layout='desktop'] .sound {
+  position: fixed;
+  right: 3.5vw;
+  top: 3.5svh;
+  font-size: 14px;
+}
+
+.canvasBox {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.still {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Entrance: hidden until the intro timeline shows them. */
+.home [data-enter],
+.home [data-split] {
+  visibility: hidden;
+}
+
+.home [data-burn] {
+  filter: blur(0);
+}
+
+/* ---- left column: six hand-drawn icons ---- */
+
+.iconCol {
+  position: absolute;
+  z-index: 1;
+  left: calc(228 * var(--u));
+  top: calc(196 * var(--u));
+}
+
+.icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: calc(62 * var(--u));
+}
+
+.icon {
+  position: relative;
+  display: block;
+  width: max(calc(28 * var(--u)), 20px);
+  color: var(--ash);
+  transition: color 0.3s ease;
+}
+
+.icon:hover,
+.icon:focus-visible {
+  color: var(--fg-strong);
+}
+
+/* Hover label: the icons are hand-drawn and unlabelled, so name each one to the right (above on mobile). */
+.icon::after {
+  content: attr(data-label);
+  position: absolute;
+  left: calc(100% + 1.1rem);
+  top: 50%;
+  transform: translate(-6px, -50%);
+  padding: 0.3rem 0.65rem;
+  border: 1px solid color-mix(in srgb, var(--turmeric) 55%, transparent);
+  border-radius: 2px;
+  background: rgba(10, 8, 7, 0.92);
+  color: var(--turmeric);
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s var(--ease-out);
+}
+
+.icon:hover::after,
+.icon:focus-visible::after {
+  opacity: 1;
+  transform: translate(0, -50%);
+}
+
+/* ---- right rail ---- */
+
+/*
+ * The rail and the collection are sized in em of their own text, so when the
+ * minimum font size takes over on smaller screens the lines still break where
+ * the design breaks them.
+ */
+.rail {
+  position: absolute;
+  z-index: 1;
+  left: calc(1421 * var(--u));
+  top: calc(190 * var(--u));
+  font-size: max(calc(18.5 * var(--u)), 13px);
+  width: 13.6em;
+}
+
+.statement {
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.32;
+  letter-spacing: 0.01em;
+}
+
+.practice {
+  margin-top: 2.5em;
+  font-size: 0.784em;
+  line-height: 1.34;
+}
+
+.collection {
+  position: absolute;
+  z-index: 1;
+  left: calc(1421 * var(--u));
+  top: calc(668 * var(--u));
+  font-size: max(calc(19 * var(--u)), 13px);
+  width: 17.5em;
+  display: grid;
+  grid-template-columns: 4.2em 1fr;
+  column-gap: 0.7em;
+  align-items: start;
+}
+
+.collection p {
+  color: var(--turmeric);
+  font-weight: 400;
+  line-height: 1.32;
+}
+
+.rule {
+  display: block;
+  height: max(calc(2 * var(--u)), 1px);
+  margin-top: 0.63em;
+  background: var(--turmeric);
+  transform-origin: left center;
+}
+
+.byline {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.signature {
+  position: absolute;
+  left: 8.26em;
+  top: 5.1em;
+  width: 6.05em;
+  color: var(--oxblood);
+  pointer-events: none;
+}
+
+/* ---- Design / Art ---- */
+
+.doors {
+  position: absolute;
+  z-index: 1;
+  left: calc(304 * var(--u));
+  top: calc(893 * var(--u));
+}
+
+.door {
+  position: absolute;
+  top: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: calc(16 * var(--u));
+  color: var(--turmeric);
+  font-weight: 400;
+  font-size: max(calc(18.5 * var(--u)), 14px);
+  white-space: nowrap;
+  padding-block: 0.35em;
+}
+
+.door:nth-child(1) {
+  left: 0;
+}
+
+.door:nth-child(2) {
+  left: calc(356 * var(--u));
+}
+
+.arrow {
+  width: max(calc(46 * var(--u)), 30px);
+  --arrow-tip: #000;
+  transition: transform 0.55s var(--ease-out);
+}
+
+.door:hover .arrow,
+.door:focus-visible .arrow {
+  transform: translateX(6px);
+}
+
+.sound {
+  position: absolute;
+  z-index: 1;
+  right: calc(112 * var(--u));
+  top: calc(64 * var(--u));
+  font-size: max(calc(13 * var(--u)), 12px);
+  letter-spacing: 0.02em;
+  color: var(--ash);
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.sound:hover,
+.sound:focus-visible {
+  opacity: 1;
+}
+
+/* ---- mobile and tablet portrait: flow layout under a full-width poster ---- */
+
+.home[data-layout='mobile'] {
+  padding-top: clamp(64px, 14svh, 150px);
+  padding-bottom: 40px;
+}
+
+.home[data-layout='mobile'] .canvasBox {
+  inset: auto;
+}
+
+.posterWindow {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  aspect-ratio: 1063 / 688;
+  overflow: hidden;
+}
+
+.posterWindow .still {
+  max-width: none; /* base.css caps images at 100%, which would squash this oversized still */
+  inset: auto;
+  left: -28.5%;
+  top: -28.2%;
+  width: 180.6%;
+  height: auto;
+  object-fit: fill;
+}
+
+.mobileBody {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 40px;
+  padding: 28px 24px 0;
+  max-width: 34rem;
+}
+
+.home[data-layout='mobile'] .doors,
+.home[data-layout='mobile'] .door,
+.home[data-layout='mobile'] .collection {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+
+.home[data-layout='mobile'] .doors {
+  display: flex;
+  gap: 44px;
+}
+
+.home[data-layout='mobile'] .door {
+  font-size: 17px;
+  gap: 12px;
+  padding-block: 0.6rem;
+}
+
+/* --u (frame units) only exists on the desktop stage. */
+.home[data-layout='mobile'] .arrow {
+  width: 34px;
+}
+
+.home[data-layout='mobile'] .sound {
+  font-size: 13px;
+}
+
+.home[data-layout='mobile'] .collection {
+  width: auto;
+  grid-template-columns: 52px 1fr;
+  column-gap: 12px;
+  padding-bottom: 36px;
+}
+
+.home[data-layout='mobile'] .collection p {
+  font-size: 16px;
+}
+
+.home[data-layout='mobile'] .rule {
+  height: 1px;
+  margin-top: 11px;
+}
+
+.home[data-layout='mobile'] .signature {
+  left: 150px;
+  top: 82px;
+  width: 92px;
+}
+
+.home[data-layout='mobile'] .icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.home[data-layout='mobile'] .icon {
+  width: 30px;
+}
+
+.home[data-layout='mobile'] .icon::after {
+  left: 0;
+  top: auto;
+  bottom: calc(100% + 0.6rem);
+  transform: translate(0, 4px);
+}
+
+.home[data-layout='mobile'] .icon:hover::after,
+.home[data-layout='mobile'] .icon:focus-visible::after {
+  transform: translate(0, 0);
+}
+
+.home[data-layout='mobile'] .sound {
+  position: relative;
+  right: auto;
+  top: auto;
+  justify-self: start;
+}
+
+/* Hover labels are for a mouse; on touch they would stick after a tap. */
+@media (hover: none) {
+  .icon::after {
+    display: none;
+  }
+}

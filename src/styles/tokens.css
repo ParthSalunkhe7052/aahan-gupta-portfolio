@@ -1,0 +1,79 @@
+/*
+ * Design tokens. Colours are sampled from the designer's files:
+ *   oxblood  #932424  red signature, Design-page text
+ *   turmeric #d18028  yellow signature, arrows, ESC/zoom, Art-page titles
+ *   ash      #a59f9b  hand-drawn icons, body text on black
+ *   graphite #514c48  body text on paper
+ *   paper    #efefef  Design-page background
+ *   char     #0a0504  mean of the footer texture
+ * Layout follows GRID.svg: 16% left margin, four columns to 70%, a right rail to 91%.
+ */
+:root {
+  --black: #000;
+  --char: #0a0504;
+  --paper: #efefef;
+  --oxblood: #932424;
+  --turmeric: #d18028;
+  --ash: #a59f9b;
+  --graphite: #514c48;
+  --ember: #ffa043;
+  --flame: #ffe2a8;
+
+  --font-serif: 'Merriweather Variable', Merriweather, Georgia, 'Times New Roman', serif;
+
+  /* Type scale: the mockups are drawn on a 1920px page; sizes hold a readable floor below that. */
+  --step--1: clamp(0.78rem, 0.72rem + 0.18vw, 0.9rem);
+  --step-0: clamp(0.9rem, 0.84rem + 0.2vw, 1.0625rem);
+  --step-1: clamp(1.05rem, 0.95rem + 0.35vw, 1.3rem);
+  --step-2: clamp(1.3rem, 1.1rem + 0.7vw, 1.8rem);
+  --step-3: clamp(1.7rem, 1.3rem + 1.4vw, 2.6rem);
+  --step-4: clamp(2.2rem, 1.5rem + 2.6vw, 4rem);
+
+  --leading-body: 1.62;
+  --leading-tight: 1.18;
+
+  --margin-l: clamp(1.25rem, 15.8vw, 19rem);
+  --margin-r: clamp(1.25rem, 9vw, 11rem);
+  --rail: clamp(14rem, 21vw, 26rem);
+  --gutter: clamp(1rem, 2.5vw, 3rem);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-burn: cubic-bezier(0.55, 0.06, 0.25, 1);
+
+  --z-page: 1;
+  --z-header: 20;
+  --z-admin: 60;
+  --z-modal: 80;
+  --z-fx: 100;
+
+  color-scheme: dark;
+}
+
+/* World themes: set on <html data-world="..."> by the router shell. */
+[data-world='home'],
+[data-world='art'] {
+  --bg: var(--black);
+  --fg: var(--ash);
+  --fg-strong: #d9d3ce;
+  --title: var(--turmeric);
+  --link: var(--turmeric);
+  --rule: var(--turmeric);
+  --logo: var(--oxblood);
+  --arrow-tip: #000;
+  --focus: var(--turmeric);
+  color-scheme: dark;
+}
+
+[data-world='design'] {
+  --bg: var(--paper);
+  --fg: var(--graphite);
+  --fg-strong: #2b2725;
+  --title: var(--oxblood);
+  --link: var(--oxblood);
+  --rule: var(--turmeric);
+  --logo: var(--turmeric);
+  --arrow-tip: #000;
+  --focus: var(--oxblood);
+  color-scheme: light;
+}

@@ -1,0 +1,88 @@
+.root {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  touch-action: pan-y;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.root:active {
+  cursor: grabbing;
+}
+
+.caption {
+  position: absolute;
+  left: 50%;
+  bottom: 0.5rem;
+  transform: translate(-50%, 6px);
+  display: flex;
+  gap: 0.75em;
+  align-items: baseline;
+  white-space: nowrap;
+  color: var(--turmeric);
+  font-size: var(--step-0);
+  opacity: 0;
+  transition:
+    opacity 0.35s ease,
+    transform 0.5s var(--ease-out);
+  pointer-events: none;
+}
+
+.caption[data-visible='true'] {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.caption strong {
+  font-weight: 700;
+}
+
+.caption em {
+  font-weight: 300;
+}
+
+/* Keyboard list: invisible until a button has focus. */
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list button {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.list button:focus-visible {
+  left: 50%;
+  bottom: 3rem;
+  transform: translateX(-50%);
+  width: auto;
+  max-width: calc(100% - 2rem);
+  height: auto;
+  overflow: visible;
+  clip-path: none;
+  padding: 0.6rem 1rem;
+  background: #000;
+  color: var(--turmeric);
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  z-index: 5;
+  cursor: pointer;
+  white-space: normal;
+  text-align: center;
+}
+
+/* On touch screens the sphere turns in every direction under a finger; the page scrolls from the margins around it. */
+@media (pointer: coarse) {
+  .root {
+    touch-action: none;
+  }
+}

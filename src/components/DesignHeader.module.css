@@ -1,0 +1,71 @@
+/* Columns follow the mockup: ESC at the left margin, tabs on columns 2 to 4, signature at the right margin. */
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, var(--gcol)) 1fr;
+  align-items: center;
+  padding: clamp(1.75rem, 4.2vw, 5rem) var(--pad-r) 0 var(--pad-l);
+  position: relative;
+  z-index: var(--z-header);
+}
+
+.esc {
+  grid-column: 1;
+  justify-self: start;
+}
+
+.tabs {
+  grid-column: 2 / 5;
+  display: grid;
+  grid-template-columns: subgrid;
+  align-items: center;
+}
+
+.tab {
+  color: var(--link);
+  font-weight: 400;
+  font-size: var(--step-0);
+  justify-self: start;
+  padding-block: 0.5rem;
+  transition: opacity 0.3s ease;
+}
+
+.tab:hover {
+  opacity: 0.7;
+}
+
+.current {
+  font-weight: 700;
+}
+
+.logo {
+  position: absolute;
+  right: var(--pad-r);
+  top: clamp(1.25rem, 3.6vw, 4.4rem);
+  display: block;
+  width: clamp(3.4rem, 6vw, 7.5rem);
+}
+
+@media (max-width: 759.98px) {
+  .header {
+    grid-template-columns: auto 1fr;
+    column-gap: 0.9rem;
+    padding-top: 1.25rem;
+    padding-right: calc(20px + 3.2rem);
+  }
+
+  .tabs {
+    grid-column: 2;
+    grid-template-columns: repeat(3, auto);
+    justify-content: start;
+    column-gap: 0.9rem;
+  }
+
+  .tab {
+    font-size: 0.72rem;
+  }
+
+  .logo {
+    width: 3rem;
+    top: 0.75rem;
+  }
+}

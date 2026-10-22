@@ -1,0 +1,204 @@
+/* ---------- head: title left, summary and credit on the right (mockup Artboard 18) ---------- */
+
+.head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 13vw 13vw;
+  column-gap: 2vw;
+  align-items: start;
+  padding: clamp(3rem, 8vw, 10rem) var(--pad-r) clamp(3rem, 9vw, 11rem) var(--pad-l);
+}
+
+.title {
+  color: var(--title);
+  font-style: italic;
+  font-weight: 300;
+  font-size: clamp(2rem, 1.3rem + 2.2vw, 3.4rem);
+  line-height: 1.12;
+  max-width: 14em;
+  padding-top: 0.15em;
+}
+
+.draftTag {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: var(--step--1);
+  font-style: normal;
+  color: var(--fg);
+  opacity: 0.7;
+}
+
+.summary,
+.credit {
+  color: var(--fg);
+  font-size: var(--step--1);
+  line-height: 1.6;
+  padding-top: 0.9em;
+}
+
+.summary {
+  grid-column: 2;
+}
+
+.credit {
+  grid-column: 3;
+}
+
+.tagline {
+  display: block;
+  margin-bottom: 0.9em;
+  font-weight: 700;
+  color: var(--fg-strong);
+}
+
+.studio {
+  display: block;
+}
+
+.studio em {
+  display: block;
+  color: var(--title);
+  font-weight: 400;
+}
+
+.edit {
+  grid-column: 1 / -1;
+  justify-self: start;
+  margin-top: 1.5rem;
+  padding: 0.4rem 0;
+  color: var(--link);
+  border-bottom: 1px solid currentColor;
+  font-size: var(--step--1);
+  font-weight: 400;
+}
+
+/* ---------- blocks: edge to edge, no gaps ---------- */
+
+.blocks {
+  width: 100%;
+}
+
+.frame {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background: rgb(0 0 0 / 0.03);
+}
+
+/* A little taller than the frame so it can drift 6% slower than the page. */
+.shift {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -3.5%;
+  height: 107%;
+  will-change: transform;
+}
+
+.placeholder {
+  display: grid;
+  place-items: center;
+  border: 1px dashed var(--fg);
+  background: transparent;
+  color: var(--fg);
+  font-size: var(--step--1);
+  font-style: italic;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* A whole image: centred, full width up to a cap set inline from its own pixel width. */
+.longRow {
+  display: flex;
+  justify-content: center;
+}
+
+.long {
+  width: 100%;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.trio {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.feature {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.featureRight .featureImage {
+  order: 2;
+}
+
+.featureText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.1rem;
+  padding: clamp(1.5rem, 4vw, 5rem);
+}
+
+.text {
+  padding: clamp(3rem, 8vw, 9rem) var(--pad-r) clamp(3rem, 8vw, 9rem) var(--pad-l);
+  display: grid;
+  gap: 1.1rem;
+  max-width: calc(62ch + var(--pad-l));
+}
+
+.heading {
+  color: var(--title);
+  font-style: italic;
+  font-weight: 300;
+  font-size: var(--step-2);
+  line-height: 1.2;
+}
+
+.body {
+  color: var(--fg);
+  font-size: var(--step-0);
+  line-height: var(--leading-body);
+  max-width: 62ch;
+  white-space: pre-line;
+}
+
+/* ---------- after the blocks ---------- */
+
+.after {
+  padding: clamp(3rem, 6vw, 7rem) var(--pad-r) clamp(4rem, 8vw, 9rem) var(--pad-l);
+}
+
+/* ---------- phones: rows stack, every image keeps its own ratio ---------- */
+
+@media (max-width: 759.98px) {
+  .head {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 0.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .summary,
+  .credit {
+    grid-column: 1;
+    padding-top: 0.75rem;
+  }
+
+  .split,
+  .trio,
+  .feature {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .featureRight .featureImage {
+    order: 0;
+  }
+
+  .featureText {
+    padding: 2rem var(--pad-r) 2.5rem var(--pad-l);
+  }
+}

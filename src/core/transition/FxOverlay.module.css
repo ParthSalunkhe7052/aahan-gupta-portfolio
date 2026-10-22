@@ -1,0 +1,15 @@
+.canvas,
+.fallback {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: var(--z-fx);
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.fallback {
+  opacity: 0;
+  background: #050302;
+}
